@@ -1,0 +1,58 @@
+body{
+	background-color: #1233;
+}
+
+div.header{
+	width: 95%;
+	height: 5%;
+	float: right;
+	text-align: right;
+	vertical-align: center;
+	outline: 1px solid green;
+}
+
+div.header a{
+	display: block;
+	float: right;
+	width: auto;
+	text-align: center;
+	font-size: 10px;
+	text-decoration: none;
+	color: purple;
+}
+
+div.header a:hover{
+	color: yellow;
+}
+
+div.header a h1{
+	margin: 0;
+	letter-spacing: 30px;
+	text-shadow: 2px 2px #1234;
+}
+
+div.menu{
+	width: 5%;
+	height: 100%;
+	text-align: center;
+	vertical-align: center;
+	color: green;
+	position: relative;
+}
+
+div.name, div.info{
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+	outline: 1px solid red;
+	position: relative;
+}
+
+div.name p, div.info p{
+	margin: 0;
+  position: absolute;               
+  top: 50%;   
+	left: 50%;
+  transform: translate(-50%, -50%);
+}
+
