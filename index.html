@@ -2,8 +2,11 @@
 
 <html>
 <head>
-	<title> css master </title>
+	<title> Дома </title>
+	<link rel = "stylesheet" href = "css/header.css" type = "text/css"/>
+	<link rel = "stylesheet" href = "css/menu.css" type = "text/css"/>
 	<link rel = "stylesheet" href = "css/styles.css" type = "text/css"/>
+	<link rel = "icon" href = "images/icon.png" type = "image/x-coin"/>
 </head>
 <body>
 	<div class = "header">
@@ -12,8 +15,25 @@
 		</a>
 	</div>
 	<div class = "menu">
-		<div class = "name"><p>Меню</p></div>
-		<div class = "info"><p>Об Авторе</p></div>
+		<a href = "index.html" onclick = "checkMenuClickCounter()" value = "">
+			<div class = "name">
+				<p>Домой</p>
+			</div>
+		</a>
+		<a href = "info.html">
+			<div class = "info">
+				<p>Смысл</p>
+			</div>
+		</a>
+		<div class = "blog">
+			<p>Блог</p>
+		</div>
+		<div class = "fanbase">
+			<p>Для Фанаток</p>
+		</div>
+		<div class = "archive">
+			<p>Архив)</p>
+		</div>
 	</div>
 </body>
 </html>

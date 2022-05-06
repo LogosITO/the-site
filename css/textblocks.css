@@ -1,0 +1,40 @@
+div.circle-block1, div.circle-block2, div.circle-block3 { 
+	position: absolute; 
+	outline: 1px solid black; 
+	color: #333;
+	padding: 5px; 
+	border-radius: 50%;
+}
+
+div.circle-block1{
+	background-color: #ECF5E4; 
+  width: 250px; 
+	height: 250px; 
+	top: 50px;
+	left: 6%;
+}
+
+div.circle-block2{
+	background-color: #D660CC;
+	width: 300px;
+	height: 300px;
+	top: 50px;
+	left: 32%;
+}
+
+div.circle-block3{
+	background-color: #D6C389;
+	width: 400px;
+	height: 400px;
+	top: 50px;
+	left: 60%;
+}
+
+div.circle-block1 p, div.circle-block2 p, div.circle-block3 p{
+	margin: 0px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+

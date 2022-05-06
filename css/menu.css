@@ -1,0 +1,50 @@
+div.menu{
+	width: 5%;
+	height: 100%;
+	text-align: center;
+	vertical-align: center;
+	color: green;
+	position: relative;
+	margin: none;
+}
+
+div.name, div.info, div.fanbase, div.blog, div.archive{
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+	outline: 1px solid black;
+	border-radius: 10%;
+	position: relative;
+}
+
+div.info, div.fanbase, div.blog, div.archive{
+	margin-top: 10px;
+}
+
+div.name p, div.info p, div.fanbase p, div.blog p, div.archive p{
+	margin: 0;
+  position: absolute;               
+  top: 50%;   
+	left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.name{ background-color: #FED6BC; }
+
+div.info{ background-color: #FFFADD; }
+
+div.blog{ background-color: #29BFFF; }	
+
+div.fanbase{ background-color: #FFB8EA; }
+
+div.archive{ background-color: #FEDEF4; }
+
+div.name:hover{ background-color: #DEF7FE; }
+
+div.info:hover{ background-color: #C3FBD8; }
+
+div.blog:hover{ background-color: #F1FF79; }
+
+div.fanbase:hover{ background-color: #84D9FF; }
+
+div.archive:hover{ background-color: #FF658C; }
