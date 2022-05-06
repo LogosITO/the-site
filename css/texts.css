@@ -1,0 +1,15 @@
+h1.text-header{
+	font-size: 20px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+h2.text-undheader{
+	font-size: 15px;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+p.sorry{
+	font-size: 50px;
+}

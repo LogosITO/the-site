@@ -1,4 +1,6 @@
-div.circle-block1, div.circle-block2, div.circle-block3 { 
+div.circle-block1, div.circle-block2, 
+div.circle-block3, div.circle-block4,
+div.circle-block5 { 
 	position: absolute; 
 	outline: 1px solid black; 
 	color: #333;
@@ -30,7 +32,25 @@ div.circle-block3{
 	left: 60%;
 }
 
-div.circle-block1 p, div.circle-block2 p, div.circle-block3 p{
+div.circle-block4{
+	background-color: #5CB4B0;
+	width: 400px;
+	height: 400px;
+	top: 320px;
+	left: 10%;
+}
+
+div.circle-block5{
+	background-color: #6EC665;
+	width: 300px;
+	height: 300px;
+	top: 380px;
+	left: 40%;
+}
+
+div.circle-block1 p, div.circle-block2 p, 
+div.circle-block3 p, div.circle-block4 p,
+div.circle-block5 p{
 	margin: 0px;
 	position: absolute;
 	top: 50%;
