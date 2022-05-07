@@ -1,0 +1,7 @@
+input.to-email-box{
+	top: 40px;
+	float: left;
+	display: block;
+	position: absolute;
+	width: 50%;
+}

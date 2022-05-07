@@ -4,6 +4,7 @@
 <head>
 	<meta charset = "utf-8">
 	<title> Дома </title>
+	<script src="js/main.js"></script>
 	<link rel = "stylesheet" href = "css/header.css" type = "text/css"/>
 	<link rel = "stylesheet" href = "css/menu.css" type = "text/css"/>
 	<link rel = "stylesheet" href = "css/styles.css" type = "text/css"/>
@@ -16,24 +17,21 @@
 		</a>
 	</div>
 	<div class = "menu">
-		<a href = "index.html" onclick = "checkMenuClickCounter()" value = "">
-			<div class = "name">
-				<p>Домой</p>
-			</div>
-		</a>
 		<a href = "info.html">
-			<div class = "info">
+			<div class = "info" name = "info" onmousedown="alert(getTextFromNames('info'))">
 				<p>Смысл</p>
 			</div>
 		</a>
-		<a href = "blog.html">
+		<a href = "blog.html" name = "blog">
 			<div class = "blog">
-				<p>Блог</p>
+				<p name = "blog-p" onmousedown="changeTextInName('blog-p', 'КНОПКА НАЖАТА!')">Блог</p>
 			</div>
 		</a>
-		<div class = "fanbase">
-			<p>Для Фанаток</p>
-		</div>
+		<a href = "fanpage.html">
+			<div class = "fanbase">
+				<p>Для Фанаток</p>
+			</div>
+		</a>
 		<div class = "archive">
 			<p>Архив)</p>
 		</div>
