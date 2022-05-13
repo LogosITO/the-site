@@ -10,10 +10,16 @@ div.circle-block5 {
 
 div.circle-block1{
 	background-color: #ECF5E4; 
-  width: 250px; 
+    width: 250px; 
 	height: 250px; 
 	top: 50px;
 	left: 6%;
+}
+
+div.circle-block1:hover, div.circle-block2:hover, 
+div.circle-block3:hover, div.circle-block4:hover,
+div.circle-block5:hover{
+	cursor: default;
 }
 
 div.circle-block2{

@@ -4,6 +4,8 @@
 <head>
 	<meta charset = "utf-8">
 	<title>Смысл</title>
+	<script src = "js/styles.js"></script>
+	<script src = "js/texts.js"></script>
 	<link rel = "stylesheet" href = "css/header.css" type = "text/css"/>
 	<link rel = "stylesheet" href = "css/menu.css" type = "text/css"/>
 	<link rel = "stylesheet" href = "css/textblocks.css" type = "text/css"/>
@@ -24,14 +26,13 @@
 		</a>
 	</div>
 	<div class = "circle-block1">
-		<p>
+		<p name = "cbp1" onmousedown="smartTextChanging('cbp1', 'Это просто какая - то фигня чтобы от меня отстали...')">
 			Вы наверное хотите спросить зачем этот сайт? 
-			Друзья, все очень просто! Не зачем! Это просто 
-			какая - то фигня чтобы от меня отстали...
+			Друзья, все очень просто! Не зачем!
 		</p>
 	</div>
 	<div class = "circle-block2">
-		<p>
+		<p name = 'cbp2' onmousedown="smartTextChanging('cbp2', 'Знаний конечно нет, но эта штука просто pogchamp!')">
 			Ладно, на самом деле я вот именно сейчас сижу
 			пишу вот это и думаю, а вот правда стоит ли 
 			все этого.. Ну вот правда это же нудно и долго, 
@@ -39,7 +40,7 @@
 			ни знаний!!!
 		</p>
 	</div>
-	<div class = "circle-block3">
+	<div class = "circle-block3" name = 'cbp3' onmousedown="hideBlock('cbp3')">
 		<p>
 			Блин, вот правда это все так странно и необычно..
 			Я ничего не понимаю, но это вроде работает и выглядит

@@ -13,3 +13,7 @@ h2.text-undheader{
 p.sorry{
 	font-size: 50px;
 }
+
+p.formula-holder{
+	content: '&radic';
+}

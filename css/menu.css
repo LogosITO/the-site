@@ -8,25 +8,30 @@ div.menu{
 	margin: none;
 }
 
-div.name, div.info, div.fanbase, div.blog, div.archive{
-  height: 100px;
-  text-align: center;
-  vertical-align: middle;
+div.name, div.info, div.fanbase, 
+div.blog, div.archive, div.geometry,
+div.physics{
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
 	outline: 1px solid black;
 	border-radius: 10%;
 	position: relative;
 }
 
-div.info, div.fanbase, div.blog, div.archive{
+div.info, div.fanbase, div.blog, 
+div.archive, div.geometry, div.physics{
 	margin-top: 10px;
 }
 
-div.name p, div.info p, div.fanbase p, div.blog p, div.archive p{
+div.name p, div.info p, div.fanbase p, 
+div.blog p, div.archive p, div.geometry p,
+div.physics p{
 	margin: 0;
-  position: absolute;               
-  top: 50%;   
+	position: absolute;               
+	top: 50%;   
 	left: 50%;
-  transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 div.name{ background-color: #FED6BC; }
@@ -39,6 +44,10 @@ div.fanbase{ background-color: #FFB8EA; }
 
 div.archive{ background-color: #FEDEF4; }
 
+div.geometry{ background-color: #7546D7;}
+
+div.physics{ background-color: #97266A;}
+
 div.name:hover{ background-color: #DEF7FE; }
 
 div.info:hover{ background-color: #C3FBD8; }
@@ -48,3 +57,8 @@ div.blog:hover{ background-color: #F1FF79; }
 div.fanbase:hover{ background-color: #84D9FF; }
 
 div.archive:hover{ background-color: #FF658C; }
+
+div.geometry:hover{ background-color: #FFFF73;}
+
+div.physics:hover{ background-color: #78AF2C;}
+

@@ -2,9 +2,10 @@
 
 <html>
 <head>
+	<meta name = "Artyukhov Peter Home" user-scalable = "false">
 	<meta charset = "utf-8">
 	<title> Дома </title>
-	<script src="js/main.js"></script>
+	<script src="js/texts.js"></script>
 	<link rel = "stylesheet" href = "css/header.css" type = "text/css"/>
 	<link rel = "stylesheet" href = "css/menu.css" type = "text/css"/>
 	<link rel = "stylesheet" href = "css/styles.css" type = "text/css"/>
@@ -18,7 +19,7 @@
 	</div>
 	<div class = "menu">
 		<a href = "info.html">
-			<div class = "info" name = "info" onmousedown="alert(getTextFromNames('info'))">
+			<div class = "info" name = "info">
 				<p>Смысл</p>
 			</div>
 		</a>
@@ -29,12 +30,14 @@
 		</a>
 		<a href = "fanpage.html">
 			<div class = "fanbase">
-				<p>Для Фанаток</p>
+				<p name = "fanbase-p" onmousedown="changeTextColorInName('fanbase-p', 'white')">Для Фанаток</p>
 			</div>
 		</a>
-		<div class = "archive">
-			<p>Архив)</p>
-		</div>
+		<a href = "archive.html">
+			<div class = "archive">
+				<p>Архив)</p>
+			</div>
+		</a>
 	</div>
 </body>
 </html>
